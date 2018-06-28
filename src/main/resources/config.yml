@@ -1,0 +1,6 @@
+## YAML Template.
+---
+ip: 127.0.0.1
+port: 23456
+isHost: true
+broadcastFormat: '&6[&4Broadcast&6] &a'

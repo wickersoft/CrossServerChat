@@ -1,0 +1,21 @@
+## YAML Template.
+---
+name: CrossServerChat
+main: zedly.crossserverchat.CrossServerChat
+version: 0.0.1
+commands:
+  cc:
+    description: Displays the status of the chat link.
+    permission: crossserverchat.cc
+    usage: /cc
+  cbc:
+    description: Broadcasts a message across all linked servers.
+    permission: crossserverchat.cbc
+    usage: /cbc [message]
+
+permissions:
+  crossserverchat.*:
+    children:
+      crossserverchat.cc: true
+      crossserverchat.cbc: true
+      crossserverchat.notify: true

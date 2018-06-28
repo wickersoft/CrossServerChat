@@ -1,0 +1,10 @@
+zedly\crossserverchat\ServerConnectionManager.class
+zedly\crossserverchat\ConnectionManager.class
+zedly\crossserverchat\ThreadInClient.class
+zedly\crossserverchat\ClientConnectionManager.class
+zedly\crossserverchat\ThreadIn.class
+zedly\crossserverchat\Watcher.class
+zedly\crossserverchat\ThreadInServer.class
+zedly\crossserverchat\ThreadOut.class
+zedly\crossserverchat\CrossServerChat.class
+zedly\crossserverchat\CommandProcessor.class
